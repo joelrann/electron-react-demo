@@ -1,0 +1,73 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    font-family: 'Arial';
+    color: #6D6F70;
+}
+
+h1 {
+    font-size: 65px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 0;
+}
+
+p {
+    font-size: 55px;
+    font-family: 'Verdana';
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+b {
+    color: #582D82;
+}
+
+sup {
+    font-size: medium;
+}
+
+button {
+    font-family: 'Trebuchet MS';
+    -webkit-appearance: none;
+    border-style: solid;
+    cursor: pointer;
+}
+
+button:active, button:focus {
+    outline: none;
+    filter: brightness(90%);
+}
+
+#root
+{
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 95%;
+    width: 100%;
+    border-top: solid #63676b 10px;
+    border-bottom: solid #63676b 10px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    height: 95%;
+    background-color: #edecec;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+
+
