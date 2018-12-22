@@ -2,8 +2,24 @@
 
 This is a basic kiosk app to demonstrate running React inside of Electron. The target display is 1920x1080 in portrait orientation.
 
+
+### Create
 The following article provided guidance for using create-react-app to start the project with minimal configuration.
 https://medium.freecodecamp.org/building-an-electron-application-with-create-react-app-97945861647c
+
+* run `create-react-app` to generate a basic React application
+
+* run `npm install --save-dev electron`
+
+* add main.js from electron-quick-start (we’ll rename it to electron-starter.js, for clarity)
+
+* modify call to mainWindow.loadURL (in electron-starter.js) to use localhost:3000 (webpack-dev-server)
+
+* add a main entry to package.json for electron-starter.js
+
+* add a run target to start Electron to package.json
+
+* `npm start` followed by `npm run electron`
 
 
 ### Development
